@@ -72,6 +72,10 @@ div.container{
 
 /* sessao-2 */
 
+.section-2 .container{
+    max-width: 860px;
+}
+
 .flex-section-2{
     display: flex;   
     justify-content: center;
@@ -81,7 +85,7 @@ div.container{
 
 .flex-section-2  .conteudo{
     background-color: #576975;
-    padding: 30px 10px 10px 10px;
+    padding: 40px 10px 10px 10px;
     color: white;
     max-width: 250px;
     position: relative;
@@ -104,8 +108,8 @@ div.container{
 }
 
 .flex-section-2  .conteudo:nth-last-of-type(2){
-    padding: 50px 20px;
-    max-width: 320px;
+    padding: 60px 10px;
+    max-width: 350px;
     background-color: #688293;
 }
 

@@ -98,7 +98,14 @@ div.container{
     background-position: center;
 }
 
+.flex-header .logo-header{
+    max-width: 236px;
+    width: 100%;
+}
 
+.flex-header .logo-header img{
+    width: 100%;
+}
 
 .flex-header  .menu-desktop ul li{
     display: inline-block;

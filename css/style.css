@@ -26,6 +26,80 @@ div.container{
     justify-content: space-between;
 }
 
+.single1 .mosaico-item:nth-of-type(1){
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMj0DB5m589kXR6vLqgjoGDdvP_iRueWVVww&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+}
+
+.single1 .mosaico-item:nth-of-type(2){
+    background-image: url('https://p0.piqsels.com/preview/97/140/877/chair-dentist-dental-clinic.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.single2 .mosaico-item:nth-of-type(1){
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFgD8a_lhMesfXY86G6MLS5yhY0H5Rvt34mQ&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+}
+
+.single2 .mosaico-item:nth-of-type(2){
+    background-image: url('https://s1.static.brasilescola.uol.com.br/be/conteudo/images/ao-sorrir-podemos-observar-coroa-dos-dentes-58c1a484aec09.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.single3 .mosaico-item:nth-of-type(1){
+    background-image: url('https://www.conexaoparis.com.br/wp-content/uploads/2013/11/dentes-LL.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.single3 .mosaico-item:nth-of-type(2){
+    background-image: url('https://cdn.implart.com.br/wp-content/uploads/2020/09/23121258/dente_lascado_dente_quebrado_50kb.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.single4 .mosaico-item:nth-of-type(1){
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhYkXSTAf4YxlvOQGzvl_jVuoNSdtxwZVwTA&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+}
+
+.single4 .mosaico-item:nth-of-type(2){
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyBYgqdZH534B6p883GyH_53-BWaFri2wMZg&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+}
+
+.single5 .mosaico-item:nth-of-type(1){
+    background-image: url('https://sngodontologia.com.br/wp-content/uploads/2020/04/3268402-min.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.single5 .mosaico-item:nth-of-type(2){
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5ZRr3rEZvGHg1KBfmu26wLF5HY87ts72M5g&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+}
+
+.single6 .mosaico-item:nth-of-type(1){
+    background-image: url('https://www.cemoi.com.br/wp-content/uploads/2020/08/dentista-na-uti-ajuda-no-controle-de-infeccoes.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.single6 .mosaico-item:nth-of-type(2){
+    background-image: url('https://bastosbertolaccini.adv.br/wp-content/uploads/2019/04/aperfeicoamento-em-odontologia-para-o-paciente-oncologico-posunip_10105.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
 .flex-header  .menu-desktop ul li{
     display: inline-block;
     padding: 5px 20px;

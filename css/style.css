@@ -4,8 +4,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 html,body{
     height: 100%;
 }
+
+div.container{
+    max-width: 1460px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+/* HEADER */
+
+.flex-header{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-desktop ul li{
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.menu-desktop ul li a{
+    text-transform: uppercase;
+    color: #b4b4b4;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.menu-desktop ul li a:hover{
+    color: #000000;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+/*********/

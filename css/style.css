@@ -119,11 +119,31 @@ div.container{
 
 .flex-header  .menu-mobile{
     display: none;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../imagens/menu-mobile.png);
+    cursor: pointer;
+}
+
+.flex-header  .menu-mobile ul{
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    
 }
 
 .flex-header  .menu-mobile ul li{
     list-style-type: none;
-    padding-bottom: 3px;
+    padding: 7px;
+    border: 1px solid black;
 }
 
 .flex-header  .menu-mobile ul li a{

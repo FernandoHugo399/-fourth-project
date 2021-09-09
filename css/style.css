@@ -26,12 +26,12 @@ div.container{
     justify-content: space-between;
 }
 
-.menu-desktop ul li{
+.flex-header  .menu-desktop ul li{
     display: inline-block;
     padding: 5px 20px;
 }
 
-.menu-desktop ul li a{
+.flex-header  .menu-desktop ul li a{
     text-transform: uppercase;
     color: #b4b4b4;
     text-decoration: none;
@@ -39,31 +39,74 @@ div.container{
     transition: 0.2s;
 }
 
-.menu-desktop ul li a:hover{
+.flex-header  .menu-desktop ul li a:hover{
     color: #000000;
 }
 
-.menu-mobile{
+.flex-header  .menu-mobile{
     display: none;
 }
 
 /*********/
 
-/* section-1 */
+
+/* sessao-1 */
 
 .flex-mosaico{
     display: flex;
     padding-top: 15px;
 }
 
-.mosaico-single{
+.flex-mosaico  .mosaico-single{
     width: calc(100% / 6);
 }
 
-.mosaico-item{
+.flex-mosaico  .mosaico-item{
     border: 5px solid white;
     padding-top: 100%;
     background-color: #ccc;
+}
+
+/*********/
+
+
+/* sessao-2 */
+
+.flex-section-2{
+    display: flex;   
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.flex-section-2  .conteudo{
+    background-color: #576975;
+    padding: 30px 10px 10px 10px;
+    color: white;
+    max-width: 250px;
+    position: relative;
+    top: -30px;
+}
+
+.flex-section-2  .conteudo h2{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.flex-section-2  .conteudo p{
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.flex-section-2  .conteudo img{
+    margin-top: 8px;
+}
+
+.flex-section-2  .conteudo:nth-last-of-type(2){
+    padding: 50px 20px;
+    max-width: 320px;
+    background-color: #688293;
 }
 
 /*********/

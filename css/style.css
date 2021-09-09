@@ -48,3 +48,22 @@ div.container{
 }
 
 /*********/
+
+/* section-1 */
+
+.flex-mosaico{
+    display: flex;
+    padding-top: 15px;
+}
+
+.mosaico-single{
+    width: calc(100% / 6);
+}
+
+.mosaico-item{
+    border: 5px solid white;
+    padding-top: 100%;
+    background-color: #ccc;
+}
+
+/*********/

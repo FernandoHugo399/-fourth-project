@@ -277,6 +277,7 @@ div.container{
 
 /*********/
 
+
 /* sessao-4 */
 
 .flex-section-4{
@@ -300,6 +301,7 @@ div.container{
 }
 
 /*********/
+
 
 /* sessao-5 */
 
@@ -343,7 +345,12 @@ div.container{
 
 /*********/
 
+
 /* sessao-6 */
+
+.section-6{
+    padding-bottom: 80px;   
+}
 
 .section-6 .container{
     text-align: center;
@@ -353,8 +360,8 @@ div.container{
     font-weight: 600;
     font-size: 19px;
     color: #447186;
-    padding-top: 50px;
-    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 60px;
 }
 
 .flex-section-6{
@@ -381,7 +388,81 @@ div.container{
 
 /*********/
 
+
+/* sessao-7 */
+.section-7{
+    background-color: #98A5AE;
+}
+
+.flex-section-7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    color: white;
+    font-size: 12px;
+}
+.flex-section-7 .logo-insta{
+    padding-bottom: 7px;
+}
+.flex-section-7 .cont7{
+    margin-bottom: 3px;
+}
+
+/*********/
+
+
+/* sessao-8 */
+
+.flex-section-8{
+    display: flex;
+}
+
+.flex-section-8 .item-mosaico{
+    width: calc(100% / 9);
+    padding-top: calc(100% / 9);
+    border: 5px solid white;
+    background-color: #CCCCCC;
+}
+
+/*********/
+
+
+/* sessao-9 */
+
+.section-9{
+    background-color: #576976;
+}
+
+.flex-section-9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    color: white;
+    font-size: 12px;
+}
+.flex-section-9 .logo-insta{
+    padding-bottom: 7px;
+}
+.flex-section-9 .cont9{
+    margin-bottom: 3px;
+}
+
+/*********/
+
 /* Media queries */
+
+@media screen and (max-width:1080px){
+    .flex-section-8 > div:nth-of-type(1n + 7){
+        display: none;
+    }
+
+    .flex-section-8 .item-mosaico{
+        width: calc(100% / 6);
+        padding-top: calc(100% / 6);
+    }
+}
 
 @media screen and (max-width:768px){
 
@@ -431,6 +512,15 @@ div.container{
     .box-video{
         width: 70%;
         padding-top: calc(70% * 0.6);
+    }
+
+    .flex-section-8 > div:nth-of-type(1n + 4){
+        display: none;
+    }
+
+    .flex-section-8 .item-mosaico{
+        width: calc(100% / 3);
+        padding-top: calc(100% / 3);
     }
 }
 

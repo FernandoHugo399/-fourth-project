@@ -534,6 +534,31 @@ div.container{
 
 /*********/
 
+/* footer */
+
+footer{
+    background-color: #688293;
+    padding: 30px 0;
+}
+
+.flex-footer{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-footer h2{
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+
+.flex-footer p{
+    font-size: 14px;
+}
+
+/*********/
+
 /* Media queries */
 
 @media screen and (max-width:1080px){
@@ -651,6 +676,14 @@ div.container{
     .flex-section-10 .form-contato .w45{
         float: none;
         width: 100%;
+    }
+
+    .flex-footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .flex-footer div{
+        padding-bottom: 30px;
     }
     
 }

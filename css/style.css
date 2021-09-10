@@ -451,6 +451,87 @@ div.container{
 
 /*********/
 
+/* sessao-10 */
+
+.section-10 .container{
+    max-width: 500px;
+    padding-bottom: 80px;
+}
+
+.section-10 .container > h2{
+    font-weight: 600;
+    font-size: 19px;
+    color: #447186;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.flex-section-10{
+    display: flex;
+}
+
+
+.flex-section-10 .form-contato{
+    width: 100%;
+    display: inline-block;
+    color: #989c9e;
+}
+.flex-section-10 .form-contato p{
+    font-size: 15px;
+}
+
+.flex-section-10 .form-contato .w50{
+    width: 48%;
+    float: left;
+}
+
+.flex-section-10 .form-contato .w45{
+    float: right;
+    width: 48%;
+}
+
+
+.flex-section-10 .form-contato .w100{
+    width: 100%;
+}
+
+.flex-section-10 .form-contato input{
+    width: 100%;
+    padding: 10px 8px;
+    margin: 10px 0;
+    outline: 0;
+    border: 1px solid #cbd2d8;
+    
+}
+
+.flex-section-10 .form-contato textarea{
+    width: 100%;
+    resize: none;
+    height: 124px;
+    padding: 10px 8px;
+    margin: 10px 0;
+    outline: 0;
+    border: 1px solid #cbd2d8;
+}
+
+.flex-section-10 input[type=submit]{
+    background-color: #688293;
+    color: white;
+    max-width: 100px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.flex-section-10 input[type=submit]:hover{
+    background-color: #5d7585;
+}
+
+.flex-section-10 .submit{
+    text-align: center;
+}
+
+/*********/
+
 /* Media queries */
 
 @media screen and (max-width:1080px){

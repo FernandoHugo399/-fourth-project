@@ -279,10 +279,6 @@ div.container{
 
 /* sessao-4 */
 
-
-
-
-
 .flex-section-4{
     display: flex;
 }
@@ -315,14 +311,14 @@ div.container{
     font-weight: 600;
     font-size: 19px;
     color: #447186;
-    padding-top: 50px;
+    padding-top: 55px;
     padding-bottom: 20px;
     
 }
 
 .flex-section-5{
     display: flex;
-    margin: 30px 0;
+    margin: 35px 0;
 }
 
 
@@ -335,13 +331,52 @@ div.container{
 .flex-section-5 .flex-item h2{
     font-weight: 600;
     font-size: 17px;
-    color: #447186;
+    color: #6b757a;
 }
 
 .flex-section-5 .flex-item p{
-    text-align: justify;
+    padding-top: 8px;
+    text-align: left;
     font-size: 12px;
     color: #aaa;
+}
+
+/*********/
+
+/* sessao-6 */
+
+.section-6 .container{
+    text-align: center;
+}
+
+.section-6 .container > h2{
+    font-weight: 600;
+    font-size: 19px;
+    color: #447186;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.flex-section-6{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-section-6 .depoimento{
+    max-width: 400px;
+    color: #6e808b;
+    font-size: 15px;
+}
+
+.depoimento .pessoa-depoimento{
+    padding-top: 10px;
+}
+
+.depoimento .pessoa-depoimento span{
+    position: relative;
+    top: -15px;
+    padding-left: 8px;
+    font-size: 12px;
 }
 
 /*********/

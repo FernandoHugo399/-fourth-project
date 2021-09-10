@@ -427,6 +427,59 @@ div.container{
     background-color: #CCCCCC;
 }
 
+.flex-section-8 > div:nth-of-type(1){
+    background-image: url(https://irp-cdn.multiscreensite.com/da6cae6a/facetas_odontologicas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.flex-section-8 > div:nth-of-type(2){
+    background-image: url(https://conteudo.imguol.com.br/c/entretenimento/8b/2018/07/26/gengiva-boca-dente-sorriso-1532631887070_v2_450x600.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.flex-section-8 > div:nth-of-type(3){
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0EEzkzDQ8KhJVqcGoMdqBh4YCJYxSxehdPQ&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+}
+
+.flex-section-8 > div:nth-of-type(4){
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmNrWepKnlaEeqOxsmYQRPdWLs2OAh7RktKA&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+}
+
+.flex-section-8 > div:nth-of-type(5){
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlsOFg8qB_DFehBqo_5MXOGu8HhEzRZ1JGcw&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+}
+
+.flex-section-8 > div:nth-of-type(6){
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS05D6xDiqGCeH_JjBj2DoZrUyeS-fHg6mRXg&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+}
+
+.flex-section-8 > div:nth-of-type(7){
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvMc345_6QmOrE--q8Zb_2P6qQlrORVza5Yw&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+}
+
+.flex-section-8 > div:nth-of-type(8){
+    background-image: url(https://www.falasorriso.com.br/imagens/informacoes/dentes-perfeitos-01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.flex-section-8 > div:nth-of-type(9){
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_MF2enygUHOZ6NL8h7gePipGof_QsqDaNRQ&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+}
 /*********/
 
 
@@ -504,6 +557,14 @@ div.container{
     outline: 0;
     border: 1px solid #cbd2d8;
     
+}
+
+.flex-section-10 .form-contato input:focus{
+    border: 2px solid #217ca7;
+}
+
+.flex-section-10 .form-contato textarea:focus{
+    border: 2px solid #217ca7;
 }
 
 .flex-section-10 .form-contato textarea{

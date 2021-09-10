@@ -683,7 +683,7 @@ footer{
         text-align: center;
     }
     .flex-footer div{
-        padding-bottom: 30px;
+        padding: 10px 0;
     }
     
 }

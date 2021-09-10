@@ -273,6 +273,7 @@ div.container{
 
 .section-3 .content p{
     font-size: 14px;
+    color: #939ca0;
 }
 
 /*********/
@@ -320,20 +321,21 @@ div.container{
 
 .flex-section-5{
     display: flex;
-    margin: 35px 0;
+    flex-wrap: wrap;
+    text-align: justify;
 }
 
 
 .flex-section-5 .flex-item{
     width: 33.3%;
-    padding: 0 25px;
+    padding: 15px 25px;
    
 }
 
 .flex-section-5 .flex-item h2{
     font-weight: 600;
     font-size: 17px;
-    color: #6b757a;
+    color: #939ca0;
 }
 
 .flex-section-5 .flex-item p{
@@ -595,6 +597,14 @@ div.container{
         padding-top: calc(70% * 0.6);
     }
 
+    .flex-section-5 .flex-item{
+        width: 50%;      
+    }
+
+    .flex-section-5 .flex-item:nth-of-type(1n + 7){
+        display: none;
+    }
+
     .flex-section-8 > div:nth-of-type(1n + 4){
         display: none;
     }
@@ -615,4 +625,32 @@ div.container{
         width: 100%;
         padding-top: calc(100% * 0.6);
     }
+
+    .flex-section-5{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .flex-section-5 .flex-item{
+        width: 80%;  
+    }
+
+    .flex-section-5 .flex-item p{
+        text-align: justify;
+    }
+
+    .flex-section-5 .flex-item:nth-of-type(1n + 5){
+        display: none;
+    }
+
+    .flex-section-10 .form-contato .w50{
+        width: 100%;
+        float: none;
+    }
+    
+    .flex-section-10 .form-contato .w45{
+        float: none;
+        width: 100%;
+    }
+    
 }

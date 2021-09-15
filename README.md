@@ -6,8 +6,10 @@
 ![part5](https://user-images.githubusercontent.com/87580316/132928624-f7851b92-3468-4686-86fc-d851a7580970.jpg)
 ---
 
-## :mag: About 
-Project based on one of the practical projects of the danki code course
+## :mag: About
+Project made to practice responsive design
+<br>
+Recreating a dentist's website homepage
 
 ## :rocket: Technologies used:
 <p align="center">

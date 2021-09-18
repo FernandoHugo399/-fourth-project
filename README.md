@@ -1,4 +1,4 @@
-# dentist's website
+# Dentist's website
 ![part1](https://user-images.githubusercontent.com/87580316/132928630-e8d7789a-cc8b-474f-824d-2bd4333fd716.jpg)
 ![part2](https://user-images.githubusercontent.com/87580316/132928628-4d453ae2-6f67-43ab-a99a-c7a569ba3e85.jpg)
 ![part3](https://user-images.githubusercontent.com/87580316/132928626-f4fd3145-da89-4a30-a5a2-679b50d5d48e.jpg)

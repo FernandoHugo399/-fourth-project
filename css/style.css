@@ -140,7 +140,8 @@ div.container{
     transition: 0.6s;
     display: none;
     padding: 10px 0;
-    border-bottom: 2px solid #6A8293;
+    border-bottom: 1px solid #6A8293;
+    
 }
 
 
@@ -161,7 +162,6 @@ div.container{
 
 .mobah{
     height: 155px !important;
-    
 }
 /*********/
 

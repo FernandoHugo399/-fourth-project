@@ -139,7 +139,10 @@ div.container{
     overflow: hidden;
     transition: 0.6s;
     display: none;
+    padding: 10px 0;
+    border-bottom: 2px solid #6A8293;
 }
+
 
 .menu-mobile ul li{
     padding: 8px 0;
@@ -157,7 +160,8 @@ div.container{
 }
 
 .mobah{
-    height: 130px !important;
+    height: 155px !important;
+    
 }
 /*********/
 
